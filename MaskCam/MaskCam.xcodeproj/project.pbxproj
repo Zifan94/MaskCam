@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1286B7202E4AB600D85442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286B6202E4AB600D85442 /* AppDelegate.swift */; };
+		DC1286B9202E4AB600D85442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286B8202E4AB600D85442 /* ViewController.swift */; };
+		DC1286BC202E4AB600D85442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1286BA202E4AB600D85442 /* Main.storyboard */; };
+		DC1286BE202E4AB600D85442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1286BD202E4AB600D85442 /* Assets.xcassets */; };
+		DC1286C1202E4AB600D85442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1286BF202E4AB600D85442 /* LaunchScreen.storyboard */; };
+		DC1286CC202E4AB600D85442 /* MaskCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286CB202E4AB600D85442 /* MaskCamTests.swift */; };
+		DC1286D7202E4AB600D85442 /* MaskCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286D6202E4AB600D85442 /* MaskCamUITests.swift */; };
+		DC1286E52032635200D85442 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286E42032635200D85442 /* Singleton.swift */; };
+		DC1286EB2032660000D85442 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1286EA2032660000D85442 /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1286C8202E4AB600D85442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1286AB202E4AB600D85442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1286B2202E4AB600D85442;
+			remoteInfo = MaskCam;
+		};
+		DC1286D3202E4AB600D85442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1286AB202E4AB600D85442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1286B2202E4AB600D85442;
+			remoteInfo = MaskCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1286B3202E4AB600D85442 /* MaskCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1286B6202E4AB600D85442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1286B8202E4AB600D85442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC1286BB202E4AB600D85442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1286BD202E4AB600D85442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1286C0202E4AB600D85442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1286C2202E4AB600D85442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1286C7202E4AB600D85442 /* MaskCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1286CB202E4AB600D85442 /* MaskCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskCamTests.swift; sourceTree = "<group>"; };
+		DC1286CD202E4AB600D85442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1286D2202E4AB600D85442 /* MaskCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1286D6202E4AB600D85442 /* MaskCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskCamUITests.swift; sourceTree = "<group>"; };
+		DC1286D8202E4AB600D85442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1286E42032635200D85442 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		DC1286EA2032660000D85442 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1286B0202E4AB600D85442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286C4202E4AB600D85442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286CF202E4AB600D85442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1286AA202E4AB600D85442 = {
+			isa = PBXGroup;
+			children = (
+				DC1286B5202E4AB600D85442 /* MaskCam */,
+				DC1286CA202E4AB600D85442 /* MaskCamTests */,
+				DC1286D5202E4AB600D85442 /* MaskCamUITests */,
+				DC1286B4202E4AB600D85442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1286B4202E4AB600D85442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1286B3202E4AB600D85442 /* MaskCam.app */,
+				DC1286C7202E4AB600D85442 /* MaskCamTests.xctest */,
+				DC1286D2202E4AB600D85442 /* MaskCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1286B5202E4AB600D85442 /* MaskCam */ = {
+			isa = PBXGroup;
+			children = (
+				DC1286B6202E4AB600D85442 /* AppDelegate.swift */,
+				DC1286B8202E4AB600D85442 /* ViewController.swift */,
+				DC1286BA202E4AB600D85442 /* Main.storyboard */,
+				DC1286BD202E4AB600D85442 /* Assets.xcassets */,
+				DC1286BF202E4AB600D85442 /* LaunchScreen.storyboard */,
+				DC1286C2202E4AB600D85442 /* Info.plist */,
+				DC1286E42032635200D85442 /* Singleton.swift */,
+				DC1286EA2032660000D85442 /* ResultViewController.swift */,
+			);
+			path = MaskCam;
+			sourceTree = "<group>";
+		};
+		DC1286CA202E4AB600D85442 /* MaskCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1286CB202E4AB600D85442 /* MaskCamTests.swift */,
+				DC1286CD202E4AB600D85442 /* Info.plist */,
+			);
+			path = MaskCamTests;
+			sourceTree = "<group>";
+		};
+		DC1286D5202E4AB600D85442 /* MaskCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1286D6202E4AB600D85442 /* MaskCamUITests.swift */,
+				DC1286D8202E4AB600D85442 /* Info.plist */,
+			);
+			path = MaskCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1286B2202E4AB600D85442 /* MaskCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1286DB202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCam" */;
+			buildPhases = (
+				DC1286AF202E4AB600D85442 /* Sources */,
+				DC1286B0202E4AB600D85442 /* Frameworks */,
+				DC1286B1202E4AB600D85442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskCam;
+			productName = MaskCam;
+			productReference = DC1286B3202E4AB600D85442 /* MaskCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1286C6202E4AB600D85442 /* MaskCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1286DE202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCamTests" */;
+			buildPhases = (
+				DC1286C3202E4AB600D85442 /* Sources */,
+				DC1286C4202E4AB600D85442 /* Frameworks */,
+				DC1286C5202E4AB600D85442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1286C9202E4AB600D85442 /* PBXTargetDependency */,
+			);
+			name = MaskCamTests;
+			productName = MaskCamTests;
+			productReference = DC1286C7202E4AB600D85442 /* MaskCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC1286D1202E4AB600D85442 /* MaskCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1286E1202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCamUITests" */;
+			buildPhases = (
+				DC1286CE202E4AB600D85442 /* Sources */,
+				DC1286CF202E4AB600D85442 /* Frameworks */,
+				DC1286D0202E4AB600D85442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1286D4202E4AB600D85442 /* PBXTargetDependency */,
+			);
+			name = MaskCamUITests;
+			productName = MaskCamUITests;
+			productReference = DC1286D2202E4AB600D85442 /* MaskCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1286AB202E4AB600D85442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zifan  Yang";
+				TargetAttributes = {
+					DC1286B2202E4AB600D85442 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DC1286C6202E4AB600D85442 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC1286B2202E4AB600D85442;
+					};
+					DC1286D1202E4AB600D85442 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC1286B2202E4AB600D85442;
+					};
+				};
+			};
+			buildConfigurationList = DC1286AE202E4AB600D85442 /* Build configuration list for PBXProject "MaskCam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1286AA202E4AB600D85442;
+			productRefGroup = DC1286B4202E4AB600D85442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1286B2202E4AB600D85442 /* MaskCam */,
+				DC1286C6202E4AB600D85442 /* MaskCamTests */,
+				DC1286D1202E4AB600D85442 /* MaskCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1286B1202E4AB600D85442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1286C1202E4AB600D85442 /* LaunchScreen.storyboard in Resources */,
+				DC1286BE202E4AB600D85442 /* Assets.xcassets in Resources */,
+				DC1286BC202E4AB600D85442 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286C5202E4AB600D85442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286D0202E4AB600D85442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1286AF202E4AB600D85442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1286B9202E4AB600D85442 /* ViewController.swift in Sources */,
+				DC1286E52032635200D85442 /* Singleton.swift in Sources */,
+				DC1286B7202E4AB600D85442 /* AppDelegate.swift in Sources */,
+				DC1286EB2032660000D85442 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286C3202E4AB600D85442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1286CC202E4AB600D85442 /* MaskCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1286CE202E4AB600D85442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1286D7202E4AB600D85442 /* MaskCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1286C9202E4AB600D85442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1286B2202E4AB600D85442 /* MaskCam */;
+			targetProxy = DC1286C8202E4AB600D85442 /* PBXContainerItemProxy */;
+		};
+		DC1286D4202E4AB600D85442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1286B2202E4AB600D85442 /* MaskCam */;
+			targetProxy = DC1286D3202E4AB600D85442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1286BA202E4AB600D85442 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1286BB202E4AB600D85442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC1286BF202E4AB600D85442 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1286C0202E4AB600D85442 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1286D9202E4AB600D85442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1286DA202E4AB600D85442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1286DC202E4AB600D85442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1286DD202E4AB600D85442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC1286DF202E4AB600D85442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskCam.app/MaskCam";
+			};
+			name = Debug;
+		};
+		DC1286E0202E4AB600D85442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskCam.app/MaskCam";
+			};
+			name = Release;
+		};
+		DC1286E2202E4AB600D85442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskCam;
+			};
+			name = Debug;
+		};
+		DC1286E3202E4AB600D85442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NL354MH99;
+				INFOPLIST_FILE = MaskCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zifan94.MaskCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1286AE202E4AB600D85442 /* Build configuration list for PBXProject "MaskCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1286D9202E4AB600D85442 /* Debug */,
+				DC1286DA202E4AB600D85442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1286DB202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1286DC202E4AB600D85442 /* Debug */,
+				DC1286DD202E4AB600D85442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1286DE202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1286DF202E4AB600D85442 /* Debug */,
+				DC1286E0202E4AB600D85442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1286E1202E4AB600D85442 /* Build configuration list for PBXNativeTarget "MaskCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1286E2202E4AB600D85442 /* Debug */,
+				DC1286E3202E4AB600D85442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1286AB202E4AB600D85442 /* Project object */;
+}
