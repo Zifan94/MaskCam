@@ -18,9 +18,18 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
     @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var MaskImage: UIImageView!
     @IBOutlet weak var OpiqueSlider: UISlider!
+ 
+    @IBOutlet weak var setMask: UIButton!
+    @IBOutlet weak var takeShoot: UIButton!
+    @IBOutlet weak var getInfo: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.setMask.clipsToBounds = false
+        self.takeShoot.clipsToBounds = false
+        self.getInfo.clipsToBounds = false
         self.resetSlider()
         captureSesssion = AVCaptureSession()
         captureSesssion.sessionPreset = AVCaptureSession.Preset.photo
@@ -46,6 +55,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
     }
     
     // Take picture button
+    
     @IBAction func didPressTakePhoto(_ sender: UIButton) {
         let settings = AVCapturePhotoSettings()
         let previewPixelType = settings.availablePreviewPhotoPixelFormatTypes.first!
@@ -58,6 +68,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
         cameraOutput.capturePhoto(with: settings, delegate: self)
     }
     /////// Pick mask from Album ////////////////////////////////
+    
     @IBAction func selectMask(_ sender: Any) {
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
             let picker = UIImagePickerController()
@@ -90,6 +101,11 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
     func resetSlider() {
         self.OpiqueSlider.minimumValue = 0
         self.OpiqueSlider.maximumValue = 1
+        self.OpiqueSlider.thumbTintColor = UIColor.red
+        self.OpiqueSlider.minimumTrackTintColor = UIColor.red
+        self.OpiqueSlider.setThumbImage(UIImage(named: "tint17.PNG"), for: UIControlState.normal)
+        self.OpiqueSlider.setThumbImage(UIImage(named: "tint17.PNG"), for: UIControlState.highlighted)
+        self.OpiqueSlider.clipsToBounds = false
         self.OpiqueSlider.addTarget(self, action: #selector(changeOpique(OpiqueSlider:)), for: UIControlEvents.valueChanged)
     }
     
