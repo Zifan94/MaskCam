@@ -41,6 +41,7 @@
 		DCA6C25F2033C2AD00860F1C /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA6C2522033C2AD00860F1C /* icon40.png */; };
 		DCA6C2602033C2AD00860F1C /* icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA6C2532033C2AD00860F1C /* icon167.png */; };
 		DCA6C2612033C2AD00860F1C /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA6C2542033C2AD00860F1C /* icon76.png */; };
+		DCEB9B732033CC8E002136EA /* nomask.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DCEB9B722033CC8D002136EA /* nomask.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		DCA6C2522033C2AD00860F1C /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
 		DCA6C2532033C2AD00860F1C /* icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon167.png; sourceTree = "<group>"; };
 		DCA6C2542033C2AD00860F1C /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		DCEB9B722033CC8D002136EA /* nomask.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nomask.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		DCA6C1FC203391C800860F1C /* img */ = {
 			isa = PBXGroup;
 			children = (
+				DCEB9B722033CC8D002136EA /* nomask.PNG */,
 				DCA6C200203391D700860F1C /* download2.PNG */,
 				DCA6C2052033994200860F1C /* tint30.PNG */,
 				DCA6C1FE203391D700860F1C /* exchange.PNG */,
@@ -334,6 +337,7 @@
 				DC1286C1202E4AB600D85442 /* LaunchScreen.storyboard in Resources */,
 				DCA6C201203391D700860F1C /* return.PNG in Resources */,
 				DCA6C2592033C2AD00860F1C /* icon20.png in Resources */,
+				DCEB9B732033CC8E002136EA /* nomask.PNG in Resources */,
 				DCA6C25A2033C2AD00860F1C /* icon152.png in Resources */,
 				DCA6C25F2033C2AD00860F1C /* icon40.png in Resources */,
 				DCA6C25C2033C2AD00860F1C /* icon180.png in Resources */,

@@ -52,7 +52,7 @@ class ResultViewController: UIViewController {
             ac.addAction(UIAlertAction(title: "OK", style: .default))
             present(ac, animated: true)
         } else {
-            let ac = UIAlertController(title: "Saved!", message: "Your image has been saved to your album.", preferredStyle: .alert)
+            let ac = UIAlertController(title: "Saved!", message: "Photo has been saved to your album.", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "OK", style: .default))
             present(ac, animated: true)
         }

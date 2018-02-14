@@ -120,7 +120,7 @@
                                     <constraint firstAttribute="width" secondItem="Mmq-jj-sCJ" secondAttribute="height" multiplier="3:4" id="ylX-9O-Iq4"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjW-J2-KXN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjW-J2-KXN">
                                 <rect key="frame" x="304" y="40" width="55" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="OEe-fZ-XBF"/>
@@ -139,7 +139,7 @@
                                     <constraint firstAttribute="width" constant="360" id="yW8-vt-sJz"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCI-mn-Llc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCI-mn-Llc">
                                 <rect key="frame" x="16" y="40" width="55" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="X8a-Y2-mKg"/>
@@ -150,7 +150,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="RoX-6n-ysf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-kz-25t">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-kz-25t">
                                 <rect key="frame" x="304" y="591" width="55" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ycy-kz-25t" secondAttribute="height" multiplier="1:1" id="Vl1-pi-dQ8"/>

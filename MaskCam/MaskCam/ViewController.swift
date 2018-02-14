@@ -30,6 +30,8 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
         self.setMask.clipsToBounds = false
         self.takeShoot.clipsToBounds = false
         self.getInfo.clipsToBounds = false
+        self.MaskImage.image = UIImage(named:"nomask.PNG")
+        self.MaskImage.alpha = 0
         self.resetSlider()
         captureSesssion = AVCaptureSession()
         captureSesssion.sessionPreset = AVCaptureSession.Preset.photo
