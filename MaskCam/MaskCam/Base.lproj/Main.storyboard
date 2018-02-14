@@ -42,7 +42,7 @@
                                 </constraints>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZJ-Jp-rNN">
-                                <rect key="frame" x="152" y="600.5" width="70" height="70"/>
+                                <rect key="frame" x="152" y="599.5" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="1uV-xM-6Xf"/>
                                     <constraint firstAttribute="width" secondItem="kZJ-Jp-rNN" secondAttribute="height" multiplier="1:1" id="vkQ-Rb-omE"/>
@@ -91,7 +91,7 @@
                             <constraint firstItem="zMc-4e-bqd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eAv-BW-Nj6"/>
                             <constraint firstItem="kZJ-Jp-rNN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gWk-mp-ZBz"/>
                             <constraint firstItem="Bt4-ef-baP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="j9G-x3-tzU"/>
-                            <constraint firstItem="kZJ-Jp-rNN" firstAttribute="top" secondItem="Op0-Ko-M23" secondAttribute="bottom" constant="7" id="n7U-HX-0Be"/>
+                            <constraint firstItem="kZJ-Jp-rNN" firstAttribute="top" secondItem="Op0-Ko-M23" secondAttribute="bottom" constant="6" id="n7U-HX-0Be"/>
                             <constraint firstItem="Bt4-ef-baP" firstAttribute="top" secondItem="Op0-Ko-M23" secondAttribute="bottom" constant="10" id="pQr-SG-jVa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -156,7 +156,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mmq-jj-sCJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mmq-jj-sCJ">
                                 <rect key="frame" x="0.0" y="93.5" width="375" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Mmq-jj-sCJ" secondAttribute="height" multiplier="3:4" id="ylX-9O-Iq4"/>
@@ -196,8 +196,8 @@
                                     <action selector="saveImage:" destination="Gw1-cs-dtR" eventType="touchDown" id="R1x-rL-5Y1"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SQs-t2-6lU">
-                                <rect key="frame" x="0.0" y="93.5" width="375" height="500"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQs-t2-6lU">
+                                <rect key="frame" x="0.0" y="95" width="375" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SQs-t2-6lU" secondAttribute="height" multiplier="3:4" id="mog-ad-gEb"/>
                                 </constraints>
@@ -242,6 +242,6 @@
         <image name="return.PNG" width="400" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0Am-tJ-b5J"/>
+        <segue reference="RoX-6n-ysf"/>
     </inferredMetricsTieBreakers>
 </document>
