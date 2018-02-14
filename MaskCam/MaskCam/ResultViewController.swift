@@ -28,14 +28,35 @@ class ResultViewController: UIViewController {
         self.mask.alpha = 0
 
     }
-
-    @IBAction func exchange(_ sender: Any) {
-        let tmpAlpha = self.photo.alpha
-        self.photo.alpha = self.mask.alpha
-        self.mask.alpha = tmpAlpha
+    
+    ///////// exchange Button ///////////
+    @IBAction func exchangeTouchDown(_ sender: Any) {
+        self.mask.alpha = 1
+        self.photo.alpha = 0
     }
     
+    @IBAction func exchangeTouchUp(_ sender: Any) {
+        self.mask.alpha = 0
+        self.photo.alpha = 1
+    }
+
+    ///////// save image Button ///////////
+    @IBAction func saveImage(_ sender: Any) {
+        UIImageWriteToSavedPhotosAlbum(self.photo.image!, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+    }
     
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: NSError?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        } else {
+            let ac = UIAlertController(title: "Saved!", message: "Your image has been saved to your album.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        }
+    }
     
     
     override func didReceiveMemoryWarning() {
