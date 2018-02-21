@@ -23,6 +23,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
     @IBOutlet weak var takeShoot: UIButton!
     @IBOutlet weak var getInfo: UIButton!
     
+//    @IBOutlet weak var tmpImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,20 +33,37 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate, UIImagePi
         self.getInfo.clipsToBounds = false
         self.MaskImage.image = UIImage(named:"nomask.PNG")
         self.MaskImage.alpha = 0
+        self.previewView.clipsToBounds = true
+        self.MaskImage.clipsToBounds = true
         self.resetSlider()
         captureSesssion = AVCaptureSession()
-        captureSesssion.sessionPreset = AVCaptureSession.Preset.photo
+//        if (UIDevice.current.userInterfaceIdiom == .phone)
+//        {
+        captureSesssion.sessionPreset = AVCaptureSession.Preset.medium
+//        }
         cameraOutput = AVCapturePhotoOutput()
         let device = AVCaptureDevice.default(for: AVMediaType.video)
         
+//        self.tmpImg.image = UIImage(named: "mydish1.jpg")
+//        self.tmpImg.alpha = 0.5
+//        self.MaskImage.image = UIImage(named: "mydish2.jpg")
+//        self.MaskImage.alpha = 1
+//        self.MaskImage.clipsToBounds = true
+//        self.tmpImg.clipsToBounds = true
+        
+
         if let input = try? AVCaptureDeviceInput(device: device!) {
             if (captureSesssion.canAddInput(input)) {
                 captureSesssion.addInput(input)
                 if (captureSesssion.canAddOutput(cameraOutput)) {
                     captureSesssion.addOutput(cameraOutput)
                     previewLayer = AVCaptureVideoPreviewLayer(session: captureSesssion)
+                    previewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
                     previewLayer.frame = previewView.bounds
+                    print(previewView.bounds)
+                    previewView.clipsToBounds = true
                     previewView.layer.addSublayer(previewLayer)
+                    previewView.clipsToBounds = true
                     captureSesssion.startRunning()
                 }
             } else {
