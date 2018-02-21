@@ -26,6 +26,9 @@ class ResultViewController: UIViewController {
         
         self.photo.alpha = 1
         self.mask.alpha = 0
+//        self.photo.image = UIImage(named: "mydish1.jpg")
+//        self.photo.backgroundColor = UIColor.black
+        self.photo.clipsToBounds = true
 
     }
     

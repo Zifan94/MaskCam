@@ -17,23 +17,16 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>11</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	
-<!--    <key>NSAppleMusicUsageDescription</key>-->
-<!--    <string>Need to access your Media Library</string>-->
-
 	<key>NSCameraUsageDescription</key>
 	<string>MaskedCam needs to access your Camera for taking photos</string>
-	
-    <key>NSPhotoLibraryAddUsageDescription</key>
+	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>MaskedCam needs to access your Album for saving your photo</string>
-	
-<!--    <key>NSPhotoLibraryUsageDescription</key>-->
-<!--    <string>MaskedCam needs to access your Album for picking mask</string>-->
-	
-    <key>UILaunchStoryboardName</key>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MaskedCam needs to access your Album for picking masks</string>
+	<key>UILaunchStoryboardName</key>
 	<string>MyLaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
